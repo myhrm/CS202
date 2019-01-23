@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 2 | HTML Basic</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <!--Headings: runs from h1 to h6-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Third</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6 id="top">Heading Six</h6>
+
+    <!-- paragraphs-->
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Quibusdam praesentium modi voluptatem <em>HI </em>neque dicta quod perferendis cumque excepturi qui <u>what is up </u>obcaecati nemo eum <strong>Hello there</strong>cupiditate rem voluptates atque ad, iusto, accusamus necessitatibus.
+    </p>
+
+    <!-- list - ordered, unordered, description list-->
+
+    <h3>Ordered</h3>
+    <ol type= "a">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ol>
+    <h3>Unordered List</h3>
+    <ul style= "list-style-type: square">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+    <h3>Description List</h3>
+    <dl>
+        <dt>CSCI 202</dt>
+        <dd>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam iusto earum itaque adipisci enim id est illum dolor odit laborum veritatis, culpa animi fugiat, libero voluptatum? Eum officiis eius minus!</dd>
+    </dl>
+   <h3>Attributes</h3>>
+    src="URL of your image"
+    href="link"
+    width="200px"
+    title="Tooltip"
+    <h3>Special Characters</h3>
+    &copy;
+    &raquo;
+    &laquo;
+    &lt;
+    &gt;
+    &#9660;
+    &#9650;
+    <hr>
+    <h3>Font Awesome</h3>
+    <i class="fas fa-arrow-right"></i>
+    <hr>
+    <!--Links: absolute, relative, internal, email, sms-->
+    <a href="">Google</a>
+    <h3>Absolute Link</h3> takes entire link
+    <a href="http://www.cnn.com/newsroom" target="_blank">CNN</a>
+    <!-- TARGET opens link in new tab-->
+    <h3>Relative Link</h3>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <h3>Internal Link</h3>
+    <!-- 2 components - idname, #link-->
+    <a href="#top">Top</a> <!--in the heading h6 i linked it, so it will go to the h6 heading aws the "top"-->
+    <h3>Images</h3>
+    <img src="images/wester.jpg" alt="Bellingham" width="100%"> <!--width 100% makes it responsive to all screens-->
+    <h3>Image Map</h3>
+    <img src="images/map.gif" usemap="bell alt="">
+    <map name="bell">
+        <area shape="circle" coords="286,195,20" href="contact.html" alt="">
+    </map>
+
+
+
+    <div style="margin-top: 400px"></div>
+</body>
+</html>

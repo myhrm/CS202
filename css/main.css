@@ -1,0 +1,22 @@
+/* selector & declaration */
+/* selector {property: value;} */
+/* css variables - we need the root and the var() */
+:root{
+    --main-color:pink;
+    --text-color:black;
+}
+p{
+    color: blue;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 150%;
+    font-size: 13px; 
+    /* shorthand */
+    font: italic small-caps bold 13px/150; /* font size/line height */
+    background-color:var(--main-color);
+}
