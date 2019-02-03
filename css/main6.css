@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-1:#22BBDD;
+    --color-2:#2C6E7B;
+
+}
+box{
+    padding:0.8em;
+    font-size: 26px;
+    color: white;
+
+}
+.color-1{
+    background: var(--color-1);
+}
+.color-2{
+    background: var(--color-2);
+}
+.grid{
+    display: grid;
+    /* grid-template-columns: 30% 70%; 
+    grid-template-rows: 300px; */
+    /* fraction unit - fr */
+
+    /* 
+
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 80px;     /*(height first row) (height second row) */
+
+    
+    /*  gap  */
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+
+    /*grid-gap: 20px;
+
+    /* repeat */
+
+    /*grid-template-columns: repeat(4, 1fr);*/;
+
+    grid-template-columns: 1fr 2fr 1 fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-areas: 
+    "head head head"
+    "nav nav nav"
+    "main main main"
+    "footer footer footer"
+    
+}
+.header{
+    grid-area: head;
+}
+.nav{
+    grid-area: nav;
+}
+.section{
+    grid-area: section;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
+
+/*comment the entire thing out: control shift alt OR control forward slash */
