@@ -21,3 +21,11 @@ nav a:hover{
     background: #007d65;
     text-decoration: none;
 }
+.container-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill,minmax(250, 1fr));
+    justify-items: center;
+    grid-gap: 20px;
+    margin: .2em 2em .2em 2em;
+}
